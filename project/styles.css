@@ -1,0 +1,162 @@
+.title{
+    text-align: center;
+    padding-top: 2%;
+    font-size: 30px;
+}
+.content{
+    text-align: center;
+    padding-top: 2%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.content2{
+    text-align: center;
+    padding-top: 1%;
+}
+.content3{
+    text-align:center;
+    font-size: 170%;
+    color:blue;
+    padding-top: 1%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.contact-info {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info .bold {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.contact-info h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.contact-info .cta-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.form-section {
+    width: 85%;
+    
+    padding: 0px;
+    
+    padding-left: 430px;
+    margin-top: -365px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-group {
+    flex: 1;
+    margin-right: 5px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="file"] {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.checkbox-group label {
+    width: calc(50% - 30px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.file-upload {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    padding-right: 420px;
+}
+
+.file-upload input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.file-upload .file-drag {
+    font-size: 1.2em;
+    color: #ccc;
+}
+
+.submit-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.perks{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(4, 120px);/* Three equal columns */
+    gap: 10px; /* Gap between grid items */
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .grid-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
